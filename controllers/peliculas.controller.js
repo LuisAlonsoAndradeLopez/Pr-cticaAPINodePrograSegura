@@ -42,7 +42,7 @@ self.get = async function (req, res) {
             attributes: [['id', 'peliculaid'], 'titulo', 'sinopsis', 'anio', 'poster'], include: {
                 model: categoria,
                 as: 'categorias',
-                attributes: [['id', 'categoria Id'], 'nombre', 'protegida'],
+                attributes: [['id', 'categoriaId'], 'nombre', 'protegida'],
                 through: { attributes: [] }
             }
         });

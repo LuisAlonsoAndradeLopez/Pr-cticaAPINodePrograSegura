@@ -4,7 +4,7 @@ let self = {}
 // GET: api/categorias
 self.getAll = async function (req, res) {
     try {
-        let data = await categoria.findAll({ attributes: [['id', 'categoria Id'], 'nombre', 'protegida'] });
+        let data = await categoria.findAll({ attributes: [['id', 'categoriaId'], 'nombre', 'protegida'] });
         return res.status(200).json(data)
     } catch (error) {
         return res.status(500).json(error)

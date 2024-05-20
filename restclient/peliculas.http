@@ -14,9 +14,9 @@ POST http://localhost:3000/api/peliculas
 Content-Type: application/json
 
 {
-    "titulo": "Pichardo la Película",
-    "sinopsis": "El mismísimo Pichardo ya está aquí.",
-    "anio": 2017
+    "titulo": "La Semilla de Chucky",
+    "sinopsis": "Sin palabras, la peor pelicula de chucky.",
+    "anio": 2004
 }
 
 ###
